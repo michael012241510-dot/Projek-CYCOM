@@ -1,0 +1,12 @@
+print("konversi mata uang")
+rupiah = int(input("masukan nominal uang dalam rupiah : "))
+print(f" Rp {rupiah}")
+operasi = input("mau dikonversi ke mata uang apa? (usd/jpy) : ")
+if operasi == "usd" :
+  hasil = rupiah/16.597,51
+  print(f"{hasil} dollar")
+elif operasi == "jpy" :
+  hasil = rupiah/112.07 
+  print(f"{hasil} yen")
+else :
+  print("mata uang tidak dapat dikonversi")
