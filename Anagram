@@ -1,6 +1,7 @@
 kata_1 = input("Masukan kata : ")
 kata_2 = input("Masukan kata yang berbeda :")
-if sorted(kata_1) == sorted(kata_2) :
+if sorted(kata_1.lower()) == sorted(kata_2.lower()) :
     print("Anagram")
 else :
     print("Bukan Anagram")
+
